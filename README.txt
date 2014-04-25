@@ -1,0 +1,1 @@
+I am putting every Eloquent Javascript exerice on here with my notes.
