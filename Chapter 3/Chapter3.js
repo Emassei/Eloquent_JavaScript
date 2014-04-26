@@ -195,40 +195,40 @@
 //----------------------------------------------------------------------
 //----------------------------------Recursive functions-----------------
 
-// Recursion:
-// 1. Having a function call itself.
-// 2. This took me a while to understand
-// 3. The function has to end, i.e. it has to reach 1 or 0, in this example
-// 4. Thus, each time the function runs the number has to get smaller
+/*Recursion:
+1. Having a function call itself.
+2. This took me a while to understand
+3. The function has to end, i.e. it has to reach 1 or 0, in this example
+4. Thus, each time the function runs the number has to get smaller
 
-// function fib(num){
-// 	if(num==0){
-// 		return 0;
-// 	}
-// 	if(num ==1){
-// 		return 1;
-// 	}
-// 	console.log(num);
-// 	return fib(num -2) + fib(num-1);
+function fib(num){
+	if(num==0){
+		return 0;
+	}
+	if(num ==1){
+		return 1;
+	}
+	console.log(num);
+	return fib(num -2) + fib(num-1);
 
-// }
-
-
-// 1. This is when a function call itself
-// 2. Here we see that the exponent - 1 stops the function from 
-//    constatnly referencing itself.
-// 3. The function has to -1 or it will never end, it has to reach 0.
+}
 
 
-// function power (base, exponent){
-// 	if(exponent == 0)
-// 		return 1;
-// 	else
-// 		return base * power(base, exponent-1);
-// }
+1. This is when a function call itself
+2. Here we see that the exponent - 1 stops the function from 
+   constatnly referencing itself.
+3. The function has to -1 or it will never end, it has to reach 0.
 
-// console.log(power(2,2));
 
+function power (base, exponent){
+	if(exponent == 0)
+		return 1;
+	else
+		return base * power(base, exponent-1);
+}
+
+console.log(power(2,2));
+*/
 //-----------------------------------------------------------------------
 //----------------------------Stack------------------------------------
 
